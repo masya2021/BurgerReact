@@ -2,7 +2,7 @@ import style from './header.module.css';
 import logo from '../../assets/img/logo.svg';
 import { Container } from '../container/container';
 
-export const Header = () => (
+export const Header = () => ( 
     <header className={style.header}>
     <Container className={style.header__container}>
       <img className={style.header__logo} src={logo} alt="Логотип YourMeal" />
