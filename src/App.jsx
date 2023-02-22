@@ -1,5 +1,6 @@
-import { Container } from "./components/container/container";
+import { Catalog } from "./components/catalog/catalog";
 import { Header } from "./components/header/header";
+import { Navigation } from "./components/navigation/navigation";
 
 export const App = () => {
 
@@ -7,10 +8,8 @@ export const App = () => {
     <> 
       <Header />
       <main>
-        <nav>
-          <Container yuri="Hortov" className="navigation__container"/>
-        </nav>
-        <section></section>
+        <Navigation />
+        <Catalog />
       </main>
       <footer></footer>
     </>
